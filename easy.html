@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matchstick game</title>
+    <link rel="icon" href="favicon.gif" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="gamestyle.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <img class="heading" src="text.gif" alt="MatchStick Game" />
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 stick-img">
+        <img
+          class = "stick" id="s1"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s2"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s3"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s4"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s5"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s6"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        /><br>
+        <img
+          class = "stick" id="s7"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s8"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+
+        <img
+          class = "stick" id="s9"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s10"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s11"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s12"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        /><br />
+
+        <img
+          class = "stick" id="s13"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s14" id = "s14"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s15"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s16"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+
+        <img
+          class = "stick" id="s17"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s18"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        /><br />
+        <img
+          class = "stick" id="s19"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s20"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+        <img
+          class = "stick" id="s21"
+          src="PNGPIX-COM-Match-Stick-PNG-Transparent-Image.png"
+          alt="stick"
+        />
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 rightdiv">
+
+        <h2 style="color: red;">Sticks Left</h2>
+        <!-- progress bar -->
+        <div class="progress">
+            <div id="bar" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div><br>
+
+          <!-- selection box -->
+          <div class="select-box">
+            <div class="card">
+                <div class="card-body">
+
+                  <span><i><strong>Sticks Left : </strong></i></span><span class="left-sticks">21</span>
+                  <hr>
+
+                  <!-- buttons -->
+                  <h6 class="card-subtitle mb-2 text-muted"><strong>🕹Select the matches to pick</strong></h6>
+                  <button type="button" class="selector1 btn btn-outline-warning btn-lg">1</button>
+                  <button type="button" class="selector2 btn btn-outline-warning btn-lg">2</button>
+                  <button type="button" class="selector3 btn btn-outline-warning btn-lg">3</button>
+                  <button type="button" class="selector4 btn btn-outline-warning btn-lg">4</button>
+
+                  <hr>
+                  <span><i><strong>🎃KellySa removed :</strong></i></span><span class="comp-removed">0</span>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+      <i>© 🎃KellySaGames.com🎃</i>
+    </footer>
+    <script src="easyGame.js"></script>
+  </body>
+</html>

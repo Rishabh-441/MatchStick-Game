@@ -1,0 +1,41 @@
+body{
+    background-color: #0F0E0E;
+    text-align: center;
+}
+.heading {
+    width: 50%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+footer{
+    color: chartreuse;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.stick-img {
+    margin-top: 5%;
+}
+.stick {
+    width: 10%;
+}
+
+.leftdiv{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.rightdiv {
+    text-align: center;
+    padding: 0 10% 0;
+}
+
+.select-box{
+    padding: 10%;
+}
+
+.card{
+    background-color: #1A1A40;
+    color: #B3541E;
+}
+

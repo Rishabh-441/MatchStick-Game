@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-color: #0F0E0E;
+}
+h1{
+    color: blue;
+    font-size: 800%;
+}
+div{
+    padding-top: 5%;
+    font-size: 3rem;
+}
+footer{
+    padding-top: 15%;
+    color: yellow;
+}
+@media (max-width: 1230px) {
+    h1{
+        font-size: 200%;
+    }
+    footer{
+        padding-top: 50%;
+    }
+}

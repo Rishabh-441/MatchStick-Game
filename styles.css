@@ -1,0 +1,47 @@
+body{
+    background-color: #0F0E0E;
+    text-align: center;
+}
+img{
+    width: 90%;
+    margin-top: 5%;
+}
+.head{
+    display: inline-block;
+}
+.start-game{
+    text-align: center;
+    /* margin-top: 2.5rem; */
+    margin-bottom: 5.5%;
+}
+
+.str-btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 4px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 3px;
+    font-size: 30px;
+    color: red;
+}
+.str-btn:hover{
+    background-color: red;
+    color: white;
+}
+footer{
+    color: chartreuse;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.text-start{
+    margin: 5px;
+}
+
+@media (max-width: 700px) {
+    .start-game{
+        text-align: center;
+        margin-top: 2.5rem;
+        margin-bottom: 40%;
+    }
+}
+
